@@ -23,5 +23,5 @@ run:
         - "Power on the board until boot successfully"
         - "In serial console, run:
            # dmesg | grep error"
-     expected:
+    expected:
         - "    There should be no \"I/O\" error shows in std output"
